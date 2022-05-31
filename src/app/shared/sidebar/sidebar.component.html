@@ -6,6 +6,7 @@
     <hr class="text-white">
     <div class="list-group list-reset">
       <a *ngFor="let historia of historial"
+      (click)="buscar(historia)"
       href="#"
       class="list-group-item list-group-item-action">
         
